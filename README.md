@@ -19,12 +19,12 @@
 
 ## Quick Start
 
- + '' + '' + '' + ash
+```bash
 curl https://relay4ai.cloud/v1/chat/completions \
-  -H " Authorization: Bearer YOUR_API_KEY\ \
- -H \Content-Type: application/json\ \
- -d '{\model\:\gpt-4o-mini\,\messages\:[{\role\:\user\,\content\:\Hello!\}]}'
- + '' + '' + '' + 
+  -H Authorization: Bearer YOUR_API_KEY \
+  -H Content-Type: application/json \
+  -d '{model:gpt-4o-mini,messages:[{role:user,content:Hello!}]}'
+```
 
 ## Features
 
@@ -32,9 +32,19 @@ curl https://relay4ai.cloud/v1/chat/completions \
 - OpenAI SDK compatible (change base URL only)
 - Stream-first billing with automatic reconciliation
 - Real-time usage dashboard
-- Monthly plans from /month
+- Monthly plans from $9/month
 - Free trial credits for new accounts
 - USDT pay-as-you-go
+
+## 🎨 AI Photo Curator (NEW)
+
+Upload a photo and AI turns it into anime / comic / movie poster style.
+
+- 3 art styles: Anime, Comic, Cinematic Poster
+- Powered by StepFun image-to-image model
+- 50 credits per generation
+- Monthly plan users get free generations
+- Try it: [relay4ai.cloud/curator](https://relay4ai.cloud/curator)
 
 ## Links
 
@@ -43,3 +53,4 @@ curl https://relay4ai.cloud/v1/chat/completions \
 - Pricing: [relay4ai.cloud/pricing](https://relay4ai.cloud/pricing)
 - Twitter: [@relay4ai](https://x.com/relay4ai)
 - Contact: Zzz666882@163.com
+
